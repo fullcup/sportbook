@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Wettpool by geraldb</title>
+    <title>Sportbook by geraldb</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,19 +17,19 @@
   <body>
 
       <header>
-        <h1>Wettpool</h1>
+        <h1>Sportbook</h1>
         <p>Free, Open Source Sports Betting Pool (Euro 2012, Champions League 2012, Bundesliga 2012, etc.) in Ruby on Rails</p>
       </header>
 
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="https://github.com/geraldb/wettpool" class="button fork"><strong>View On GitHub</strong></a>
+        <a href="https://github.com/geraldb/sportbook" class="button fork"><strong>View On GitHub</strong></a>
         <div class="downloads">
           <span>Downloads:</span>
           <ul>
-            <li><a href="https://github.com/geraldb/wettpool/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/geraldb/wettpool/tarball/master" class="button">TAR</a></li>
+            <li><a href="https://github.com/geraldb/sportbook/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/geraldb/sportbook/tarball/master" class="button">TAR</a></li>
           </ul>
         </div>
       </div><!-- end banner -->
@@ -39,25 +39,27 @@
         <ul></ul>
       </nav>
       <section>
-        <h1>Welcome to Wettpool.</h1>
+        <h1>Welcome to Sportbook.</h1>
 
 <p>A free, open source sports betting pool in Ruby on Rails (version 3.2 and up).</p>
 
 <p>Example events include:</p>
 
 <ul>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/cl">UEFA Champions League 2012</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/cl">UEFA Europa League 2012</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/austria">Österreichische Bundesliga 2011/12, 2012/13</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/austria">ÖFB Cup 2011/12, 2012/13</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/euro">UEFA European Football Championship aka Euro 2012</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/romania">Romania Liga 1 2012/13</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/mexico">México Primera División Apertura 2012</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/world">World Cup Quali 2012/13</a></li>
-<li><a href="https://github.com/geraldb/wettpool/tree/master/db/seeds/nhl">National Hockey League (NHL) 2012</a></li>
-</ul><h2>Demo</h2>
+<li>UEFA Champions League 2012/13</li>
+<li>UEFA Europa League 2011/12</li>
+<li>Österreichische Bundesliga 2011/12, 2012/13</li>
+<li>ÖFB Cup 2011/12, 2012/13</li>
+<li>UEFA European Football Championship aka Euro 2012</li>
+<li>Romania Liga 1 2012/13</li>
+<li>México Primera División Apertura 2012</li>
+<li>World Cup Quali 2012/13</li>
+<li>National Hockey League (NHL) 2012</li>
+</ul><p>For more events or leagues, see the <a href="http://geraldb.github.com/sport.db"><code>sport.db</code></a> site.</p>
 
-<p>Try the demo install running on Heroku <a href="http://wettpool.herokuapp.com"><code>wettpool.herokuapp.com</code></a>.</p>
+<h2>Demo</h2>
+
+<p>Try the demo install running on Heroku <a href="http://sportbook.herokuapp.com"><code>sportbook.herokuapp.com</code></a>.</p>
 
 <p>Use the login credentials <code>demo</code>/<code>demo</code>. </p>
 
@@ -65,14 +67,14 @@
 
 <h3>Setup on your local machine</h3>
 
-<p>Clone the Wettpol git repo:</p>
+<p>Clone the Sportbook git repo:</p>
 
-<pre><code>git clone git://github.com/geraldb/wettpool.git
+<pre><code>git clone git://github.com/geraldb/sportbook.git
 </code></pre>
 
 <p>Get all your Ruby libraries (gems) installed using the bundler tool:</p>
 
-<pre><code>cd wettpool
+<pre><code>cd sportbook
 bundle install --without production
 </code></pre>
 
@@ -94,14 +96,14 @@ unless you want to install the PostgreSQL (pg) database libraries and services
 
 <h3>Setup on Heroku</h3>
 
-<p>Clone the Wettpool git repo:</p>
+<p>Clone the Sportbook git repo:</p>
 
-<pre><code>git clone git://github.com/geraldb/wettpool.git
+<pre><code>git clone git://github.com/geraldb/sportbook.git
 </code></pre>
 
 <p>Create app on Heroku e.g.</p>
 
-<pre><code>cd wettpool
+<pre><code>cd sportbook
 heroku create &lt;your_app_name_here&gt;
 </code></pre>
 
@@ -119,19 +121,19 @@ heroku create &lt;your_app_name_here&gt;
 
 <h2>License</h2>
 
-<p>The wettpool scripts and templates are dedicated to the public domain.
+<p>The sportbook scripts and templates are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.</p>
 
 <h2>Questions? Comments?</h2>
 
-<p>Send them along to the <a href="http://groups.google.com/group/wettpool">Wettpool Forum/Mailing List</a>. Thanks!</p>
+<p>Send them along to the <a href="http://groups.google.com/group/opensport">Open Sports Database &amp; Friends Forum/Mailing List</a>. Thanks!</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/geraldb">geraldb</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
